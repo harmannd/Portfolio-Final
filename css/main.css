@@ -1,12 +1,57 @@
-.logo {
-    max-width: 100px;
-    float: left;
+/*
+* Common
+*/
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #2d3c49;
 }
-
-.heading {
-    text-align: right;
-}
-
-.app-image {
+.content-image, .app-image {
     max-width: 100%;
 }
+
+/*
+* Heading
+*/
+.logo {
+    width: 100%;
+    max-width: 100px;
+    float: left;
+    margin-top: 25px;
+}
+.heading {
+    text-align: right;
+    text-transform: uppercase;
+}
+.heading h1 {
+    font-weight: 300;
+}
+
+/*
+* Main Content
+*/
+hr {
+    border-width: 3px;
+    border-color: #7d97ad;
+}
+
+/*
+* Featured Work
+*/
+.featured {
+    color: #7d97ad;
+}
+.app {
+    margin-bottom: 10px;
+}
+.app h3 {
+    text-transform: uppercase;
+}
+.project {
+    text-align: center;
+}
+
+/*
+* Footer
+*/
