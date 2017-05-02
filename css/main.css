@@ -1,0 +1,12 @@
+.logo {
+    max-width: 100px;
+    float: left;
+}
+
+.heading {
+    text-align: right;
+}
+
+.app-image {
+    max-width: 100%;
+}

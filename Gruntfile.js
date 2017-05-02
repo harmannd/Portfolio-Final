@@ -12,15 +12,12 @@ module.exports = function(grunt) {
     responsive_images: {
       dev: {
         options: {
-          engine: 'im',
+          engine: 'gm',
           sizes: [{
-            /*
-            Change these:
-            
-            width: ,
-            suffix: ,
-            quality:
-            */
+            width: 250,
+            suffix: "_small",
+            quality: 30
+
           }]
         },
 
@@ -35,13 +32,6 @@ module.exports = function(grunt) {
           dest: 'images/'
         }]
       }
-    },
-
-    /* Clear out the images directory if it exists */
-    clean: {
-      dev: {
-        src: ['images'],
-      },
     },
 
     /* Generate the images directory if it is missing */
@@ -66,9 +56,8 @@ module.exports = function(grunt) {
   });
   
   grunt.loadNpmTasks('grunt-responsive-images');
-  grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-mkdir');
-  grunt.registerTask('default', ['clean', 'mkdir', 'copy', 'responsive_images']);
+  grunt.registerTask('default', ['mkdir', 'copy', 'responsive_images']);
 
 };
