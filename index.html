@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" href="css/media.css">
 </head>
 <body>
     <div class="container">
@@ -21,31 +22,35 @@
         </div>
         <hr>
         <div class="row">
-            <img class="content-image col-md-12" src="https://unsplash.it/800/400" alt="content image">
+            <picture class="img-responsive col-md-12">
+                <source media="(min-width: 940px)" srcset="images/html-css-1880_large_2x.jpg 2x, images/html-css-940_large_1x.jpg 1x">
+                <source media="(min-width: 500px)" srcset="images/html-css-785_medium.jpg">
+                <img src="images/html-css-250_small.jpg">
+            </picture>
         </div>
         <div class="row">
             <h2 class="featured col-md-12">Featured Work</h2>
         </div>
-        <div class="row">
+        <div class="apps row">
             <div class="app col-md-4 col-sm-6">
-                <img class="app-image" src="https://unsplash.it/800/400" alt="app pic">
+                <img class="app-image" src="images_src/entertainment_center.jpg" alt="Image of popcorn and movie reel">
                 <div class="project">
-                    <h3>Appify</h3>
-                    <a href="">link address</a>
+                    <h3>Entertainment Center</h3>
+                    <a href="https://github.com/harmannd/entertainment_center">Github link</a>
                 </div>
             </div>
             <div class="app col-md-4 col-sm-6">
-                <img class="app-image" src="https://unsplash.it/800/400" alt="app pic">
+                <img class="app-image" src="images_src/papabob.jpg" alt="Image of a Pizza shop">
                 <div class="project">
-                    <h3>Appify</h3>
-                    <a href="">link address</a>
+                    <h3>Papa Bobs</h3>
+                    <a href="https://github.com/harmannd/PapaBobs">Github link</a>
                 </div>
             </div>
             <div class="app col-md-4 col-sm-6">
-                <img class="app-image" src="https://unsplash.it/800/400" alt="app pic">
+                <img class="app-image" src="images_src/portfolio.jpg" alt="Image of a portfolio">
                 <div class="project">
-                    <h3>Appify</h3>
-                    <a href="">link address</a>
+                    <h3>Portfolio</h3>
+                    <a href="https://github.com/harmannd/Portfolio-Final">Github link</a>
                 </div>
             </div>
         </div>

@@ -7,7 +7,7 @@ body {
     font-size: 16px;
     color: #2d3c49;
 }
-.content-image, .app-image {
+img {
     max-width: 100%;
 }
 
@@ -34,6 +34,10 @@ body {
 hr {
     border-width: 3px;
     border-color: #7d97ad;
+}
+.content-image {
+    max-width: 100%;
+    max-height: 100%;
 }
 
 /*
