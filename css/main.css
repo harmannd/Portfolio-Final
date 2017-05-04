@@ -1,3 +1,17 @@
+@import url(http://weloveiconfonts.com/api/?family=zocial);
+
+/* zocial */
+[class*="zocial-"]:before {
+    color: black;
+    font-family: 'zocial', sans-serif;
+    text-shadow: 3px 3px 3px #aaa;
+    width: 2em;
+}
+
+a:hover [class*="zocial-"]:before {
+    color: #3d85c6;
+}
+
 /*
 * Common
 */
@@ -7,6 +21,7 @@ body {
     font-size: 16px;
     color: #2d3c49;
 }
+
 img {
     max-width: 100%;
 }
@@ -20,10 +35,12 @@ img {
     float: left;
     margin-top: 25px;
 }
+
 .heading {
     text-align: right;
     text-transform: uppercase;
 }
+
 .heading h1 {
     font-weight: 300;
 }
@@ -35,6 +52,7 @@ hr {
     border-width: 3px;
     border-color: #7d97ad;
 }
+
 .content-image {
     max-width: 100%;
     max-height: 100%;
@@ -46,12 +64,15 @@ hr {
 .featured {
     color: #7d97ad;
 }
+
 .app {
     margin-bottom: 10px;
 }
+
 .app h3 {
     text-transform: uppercase;
 }
+
 .project {
     text-align: center;
 }
@@ -59,3 +80,10 @@ hr {
 /*
 * Footer
 */
+.copyright {
+    float: left;
+}
+
+.social a {
+    padding-right: 10px;
+}
