@@ -17,7 +17,6 @@
 <li>images/ - Images of various quality/size for different device sizes.</li>
 <li>images_src/ - Original images.</li>
 <li>js/gruntfile.js - Grunt script for creating the images from image_src.</li>
-<li>node_modules/ - Grunt files.</li>
 <li>index.html - Main html file for website.</li>
 </ul>
 
