@@ -3,7 +3,7 @@
 /* zocial */
 [class*="zocial-"]:before {
     color: white;
-    font-family: 'zocial', sans-serif;
+    font-family: "zocial", sans-serif;
     text-shadow: 3px 3px 3px #aaa;
     width: 2em;
 }
@@ -26,6 +26,7 @@ body {
 img {
     max-width: 100%;
     width: 100%;
+    object-fit: cover;
 }
 
 /*
@@ -41,6 +42,7 @@ img {
 .heading {
     text-align: right;
     text-transform: uppercase;
+    float: right;
 }
 
 .heading h1 {
